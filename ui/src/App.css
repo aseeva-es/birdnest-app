@@ -12,11 +12,12 @@ h2 {
 }
 
 .appHeader {
+  position: relative;
   max-width: 40%;
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 0, 0.7),
-    rgba(0, 0, 0, 0)), url(./mainImage.jpg);
+    rgba(0, 0, 0, 0)), url(./assets/mainImage.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +27,17 @@ h2 {
 
 .appHeader-inner{
   align-items: flex-start;
-  
+}
+
+.appContribution{
+  position: absolute;
+  bottom: 1em;
+  left: 50px;
+  background-color: #4ecae0;
+  padding: 5px 10px;
+}
+.appContribution a{
+  color:white;
 }
 
 .appBody{
