@@ -8,7 +8,7 @@ import { AiOutlinePhone, AiOutlineMail } from "react-icons/ai";
 import { RiPinDistanceLine } from "react-icons/ri";
 import { GiNestBirds } from "react-icons/gi";
 
-const apiUrl = "http://localhost:3001/api";
+const apiUrl = "/api";
 
 function App() {
 
