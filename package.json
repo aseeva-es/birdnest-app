@@ -7,11 +7,14 @@
     "start-ui": "cd ui && npm start",
     "start-server": "node server/index.js",
     "start": "npm run start-server",
-    "build": "cd ui && npm instal && npm run build",
+    "build": "cd ui && npm instal && npm run build && cd ../server && npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Elena Aseeva",
   "license": "ISC",
   "dependencies": {
+  },
+  "engines": {
+    "node": "16.13.0"
   }
 }
