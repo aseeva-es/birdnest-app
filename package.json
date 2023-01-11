@@ -1,0 +1,17 @@
+{
+  "name": "birdnest",
+  "version": "1.0.0",
+  "description": "Full stack JS application",
+  "main": "index.js",
+  "scripts": {
+    "start-ui": "cd ../ui && npm start",
+    "start-server": "node server/index.js",
+    "start": "npm run build && npm run start-server",
+    "build": "cd ui && npm instal && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elena Aseeva",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
