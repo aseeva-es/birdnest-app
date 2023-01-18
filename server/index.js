@@ -106,5 +106,5 @@ setInterval(
           console.log("drones", drones.length);
         });
       }),
-  2000
+  config.serveriInterval
 );
